@@ -10,7 +10,6 @@ The challenge is to build a classifier that distinguishes **electron showers (si
 
 ![Electron and Hadron Showers](https://clairedavid.github.io/intro_to_ml/_images/a01_showers.png)
 
-
 ![Data](https://clairedavid.github.io/intro_to_ml/_images/a01_showers_distribs.png)
 ---
 
@@ -63,7 +62,7 @@ df['shower_width_scaled'] = (df['shower_width'] - df['shower_width'].mean()) / d
 
 print(df.describe())
 ```
-![Scatter Plot for the data](scatter.png)
+![Scatter Plot for the data](plots/scatter.png)
 ---
 
 ## **3. Data Preparation**
@@ -130,7 +129,7 @@ plt.show()
 ```
 
 > **cost vs. epochs plot**
-![Plot training progress](train.png)
+![Plot training progress](plots/train.png)
 ---
 
 ## **6. Performance Assessment**
